@@ -1,0 +1,47 @@
+<html>
+    <style>
+        body
+        {
+            background-color: #B4CDE6;
+        }
+        #s2
+        {
+            padding: 15px 25px 15px 25px;
+            background-color: transparent;
+            color:white;
+            border:1px solid white;
+            border-radius:3px;
+        }
+        #s2:hover
+        {
+            background-color: lightgray;
+            color:#182747;
+        }
+        .div1
+        {
+            display:inline-block;
+            background-color:#182747;
+            padding: 150px 125px 150px 125px;
+            margin: 150px 0px 0px 600px;
+            border-radius: 10px;
+        } 
+    </style>
+    <script>
+        function admin_login()
+        {
+
+            window.location="admin_login.php";
+        }
+        function vendor_login()
+        {
+
+            window.location="vendor_login.php";
+        }
+    </script>
+    <body>
+        <div class="div1">
+            <center><input type="button" id="s2" value="Admin" onclick="admin_login()"><br><br>
+                <input type="button" id="s2" value="Vendor" onclick="vendor_login()"></center>
+        </div>
+    </body>
+</html>
